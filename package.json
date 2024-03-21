@@ -1,6 +1,16 @@
 {
+  "name": "zero-blockchain-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BlockchainZero-Proto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "private": true,
   "dependencies": {
+    "crypto-js": "^4.2.0",
     "@vercel/edge": "^0.1.2"
   }
 }
