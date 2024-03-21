@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "blockchain-app.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "blockchain-app.js"
+        }
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "build": {
+        "env": {
+            "NODE_ENV": "development"
+        }
+    }
+}
